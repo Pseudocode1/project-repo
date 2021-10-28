@@ -1,0 +1,217 @@
+a{
+	text-decoration: none;
+
+}
+
+button:hover{
+	border: 3px goldenrod solid;
+	background: goldenrod;
+	transition: 1s;
+
+}
+
+body{
+	background-image: url("table.jpg");
+	background-size: cover;
+	min-height: 40%;
+}
+
+.steps{
+	color: #fff;
+	text-align: center;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+h3{
+	color: goldenrod;
+	font-size: 30px;
+}
+
+h1{
+	color: goldenrod;
+	font-family: Alvetical sans-serif;
+
+}
+
+#btn1{
+	margin-left: 1.5em;
+}
+
+#btn2{
+	float: right;
+	margin-right: 1.5em;
+}
+
+button{
+	border: none;
+	color: green;
+	padding: 5px 12px;
+	border-radius: 5px;
+	margin-top: 1em;
+	background: #fff;
+	font-weight: bolder;
+}
+
+.how{
+
+	font-style: normal; 
+}
+
+#input{
+	width: 80%;
+	text-align: center;
+	background: goldenrod;
+	border: 1px goldenrod;
+	color: green;
+	margin-bottom: 2.3em;
+}
+
+.container2{
+	border: 1px #fff solid;
+	width: 55%;
+	min-height: 35%;
+	margin: auto;
+	margin-top: 6em;
+	text-align: left;
+	padding: 2em 5px;
+	line-height: 2em;
+	color: goldenrod;
+}
+
+.container1{
+
+	border: 1px #fff solid;
+	width: 70%;
+	min-height: 60%;
+	margin: 12% auto;
+	margin-top: 6em;
+	text-align: center;
+	padding: 2em;
+	padding-top: 2em;
+	line-height: 4em;
+}
+
+input{
+	margin-top: 0.5em;
+	font-family: serif;
+	padding: 5px 2px;
+	
+	background: goldenrod;
+	font-weight: bold;
+	border: 1px goldenrod solid;
+	color: green;
+	border-radius: 3px;
+}
+
+p{
+	font-weight: bold;
+	color: #fff;
+	font-style: italic;
+}
+
+.container{
+
+	/*background: darkgreen;*/
+	width: 50%;
+	min-height: 55%;
+	margin: auto;
+	margin-top: 2em;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 2em;
+	padding-top: 2em;
+}
+
+textarea{
+	margin-top: 3em;
+	background: #fff;
+	min-height: 60px;
+	border: none;
+	vertical-align: top;
+	text-align: center;
+}
+
+[type="submit"]{
+	margin-top: 3em;
+	text-transform: uppercase;
+}
+
+
+
+
+@media(max-width: 700px){
+	.container1{
+	border: 1px #fff solid;
+	width: 40%;
+	min-height: 25%;
+	margin: auto;
+	margin-top: 3em;
+	text-align: center;
+	padding: 2em 4em 4em 4em;
+	line-height: 3em;
+	}
+	#input{
+	width: 130%;
+	height: 5%;
+	margin-left: -15%;
+	color: green;
+	background: goldenrod;
+	border: #fff;
+	margin-bottom: 2.3em;
+	}
+	h3{
+		font-size: 23px;
+	}
+	.container2{
+	border: 1px #fff solid;
+	width: 80%;
+	min-height: 35%;
+	margin: auto;
+	margin-top: 2em;
+	text-align: left;
+	padding: 0.5em 6px;
+	line-height: 2em;
+	color: goldenrod;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

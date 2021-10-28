@@ -1,0 +1,39 @@
+<html>
+<head>
+	<title>BlackJack/Game</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale= 1">
+	<link rel="stylesheet" type="text/css" href="jack.css">
+</head>
+<body>
+	<a href="index.html">
+		<button id="btn1">HOME</button>
+	</a>
+	<a href="jack.html">
+		<button id="btn2" onclick="saveToLocalStorage()">REFRESH</button>
+	</a>	
+	<div class="container">
+ 		<h1>JACK GAME</h1>
+ 		<p id="display">Click 'START GAME' to play the game.</p>
+ 		<p id="card">Cards: </p>
+ 		<p id="sum">Sum: </p>
+ 		<input type="button" onclick="begin()" value="START GAME">
+ 		<input type="button" onclick="newCard()" value="DRAW AGAIN">
+ 		<p id="player"></p>
+ 		<p>Chips: $<span id="chip">0</span></p>
+	</div>
+
+	<form action="jack.html">
+		<textarea name="msg" placeholder="Leave a comment"></textarea>
+		<input type="submit" value="submit">
+	</form>
+
+	<script type="text/javascript" src="jack.js"></script>
+	<script>
+		
+		document.getElementById("player").innerHTML = "Welcome! "+ localStorage.getItem("name") 
+
+		
+	</script>
+</body>
+</html>
